@@ -1,0 +1,52 @@
+body{
+    background-color: black;
+    font-family: 'Netflix Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
+    color:white;
+    margin-left: 2em;
+}
+a{
+    text-decoration: none;
+    color: white;
+    margin: 0 0.5em;
+}
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 2.5fr 1fr 2.5fr 1fr 2.5fr;
+    grid-gap:3px;
+}
+/* .box{
+    background-color: salmon;
+} */
+.box img{
+    width: 18.5vw;
+    height: 95%;
+}
+.links-top img{
+    width: 6em;
+    margin: 1em 2em 1em 0;
+}
+.box1{
+    grid-column: 1/6;
+    background-color: black;
+}
+.title{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    font-size: 20px;
+}
+.links-top{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+#link-top-left{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+#link-top-right img{
+    width: 2em;
+    margin: 1em 1em 1em 0;
+}
